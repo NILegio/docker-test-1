@@ -6,8 +6,8 @@
 3. создать виртуальное окружение - **mkvirtualenv %имя_окружения**
 4. Если это не сработало, то использовать -
 **apt-get install python3-venv**
-5. Создать виртуольное окружение - **python3 -m venv %имя_окружения**
-6. Запуск окружение - **source %имя_окружения/bin/activate**
+5. Создать виртуальное окружение - **python3 -m venv %имя_окружения**
+6. Запуск окружения - **source %имя_окружения/bin/activate**
 7. Создать локальный репозиторий - **git init**
 8. Склонировать удаленный репозиторий -
 **git clone https://github.com/NILegio/gcore-labs-test**
@@ -23,7 +23,7 @@
 Так же можно использовать docker-образ веб-сервиса.
 
 Сначала скачать - **docker pull nilegio/prime_number_app**
-Затем запустить - **docker run -p 8080:5000 -d nilegio/prime_number_app rm**
+Затем запустить - **docker run -p 8080:5000 -d nilegio/prime_number_app --rm**
 
 -----------------------------------------------
 
