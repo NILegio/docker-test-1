@@ -107,3 +107,4 @@ ENV/
 .idea/
 .pytest_cache/
 .draft/
+*.iml

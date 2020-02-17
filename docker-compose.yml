@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  prime-number:
+    build: prime-number/
+    command: python ./prime_number.py
+    ports:
+      - 8080:8080
+  test-number:
+    build: test-number/
+    command: pytest
+    network_mode: host
+    depends_on:
+      - prime-number
